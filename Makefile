@@ -19,7 +19,7 @@ wire:
 	wire
 
 clean:
-	rm -f authenticator
+	rm -rf authenticator
 
 run: build
 	./authenticator
